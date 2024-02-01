@@ -9,7 +9,7 @@ import {MatSlideToggleChange} from "@angular/material/slide-toggle";
 @Component({
   selector: 'app-ldap-list',
   templateUrl: './ldap-list.component.html',
-  styleUrls: ['./ldap-list.component.css'] // or .scss ?
+  styleUrls: ['./ldap-list.component.css']
 })
 export class LdapListComponent implements OnInit {
   displayedColumns: string[] = ['nomComplet', 'mail', 'employeNumero'];

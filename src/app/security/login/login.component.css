@@ -4,6 +4,12 @@ mat-card {
   text-align: center;
 }
 
+mat-card-title, .mat-mdc-raised-button {
+  background-color: #ff8c00 !important;
+  color: black !important;
+  border-radius: 4px;
+}
+
 .signin-content {
   padding: 60px 1rem;
 }
